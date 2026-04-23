@@ -10,12 +10,6 @@ const timelineEvents = [
     type: 'education',
   },
   {
-    year: '2024',
-    title: 'Virtusa Neural Hackathon',
-    description: 'Participated in ML-focused hackathon',
-    type: 'hackathon',
-  },
-  {
     year: 'Feb 2026 - Present',
     title: 'AIML Intern',
     description: 'Labmentix - Building data processing pipelines',
@@ -68,7 +62,7 @@ export default function About() {
             viewport={{ once: true }}
           >
             <h3 className="text-heading-md font-bold text-text-light mb-6">
-              Entry-Level Software Engineer
+              Software Engineer 
             </h3>
             <div className="space-y-4 text-body-lg text-gray-300">
               <p>
@@ -98,7 +92,7 @@ export default function About() {
                 <p className="text-sm text-muted">Tech Skills</p>
               </div>
               <div className="text-center">
-                <p className="text-3xl font-bold text-accent-teal">2026</p>
+                <p className="text-3xl font-bold text-accent-teal">2025</p>
                 <p className="text-sm text-muted">Graduate</p>
               </div>
             </div>
